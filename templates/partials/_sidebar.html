@@ -13,10 +13,10 @@
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"> Expenses </a>
+        <a class="nav-link" href="{% url 'expenses' %}"> Expenses </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#"> Income </a>
+        <a class="nav-link" href="{% url 'incomes' %}"> Income </a>
       </li>
     </ul>
 
@@ -30,7 +30,7 @@
     </h6>
     <ul class="nav flex-column mb-2">
       <li class="nav-item">
-        <a class="nav-link" href="#">
+        <a class="nav-link" href="{% url 'stats' %}">
           <span data-feather="file-text"></span>
           Expenses Summary
         </a>
@@ -39,6 +39,29 @@
         <a class="nav-link" href="#">
           <span data-feather="file-text"></span>
           Income Summary
+        </a>
+      </li>
+    </ul>
+
+    <h6
+      class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted"
+    >
+      <span>Settings</span>
+      <a class="link-secondary" href="#" aria-label="Add a new report">
+        <span data-feather="plus-circle"></span>
+      </a>
+    </h6>
+    <ul class="nav flex-column mb-2">
+      <li class="nav-item">
+        <a class="nav-link" href="{% url 'preferences' %}">
+          <span data-feather="file-text"></span>
+          General
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <span data-feather="file-text"></span>
+          Account
         </a>
       </li>
     </ul>

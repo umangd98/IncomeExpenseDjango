@@ -1,0 +1,32 @@
+#header {
+  background: rgb(0, 62, 69);
+  color: #ffffff;
+}
+
+#branding h1 {
+  color: white;
+}
+
+div.breadcrumbs {
+  background-color: rgb(61, 88, 106);
+  color: white;
+}
+
+.login .submit-row {
+  padding: 0px !important;
+}
+
+.login .submit-row input {
+  width: 100%;
+}
+
+.module h2,
+.module caption,
+.inline-group h2 {
+  background-color: rgb(0, 62, 69);
+  color: white;
+}
+
+/* .app-auth {
+  display: none;
+} */
